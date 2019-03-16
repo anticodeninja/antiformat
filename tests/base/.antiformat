@@ -1,0 +1,12 @@
+variables:
+  header: |
+      {mpl2_header}
+global:
+  rstrip: True
+  header: "{header}"
+files:
+  "*.cs": {}
+  "*.js": {}
+  "*.py": {}
+ignore:
+- "ignore/*"
